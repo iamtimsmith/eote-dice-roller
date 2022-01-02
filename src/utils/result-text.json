@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "pos": ["success", "successes"],
+    "neg": ["failure", "failures"]
+  },
+  "secondary": {
+    "pos": ["advantage", "advantages"],
+    "neg": ["threat", "threats"]
+  },
+  "critical": {
+    "pos": ["triumph", "triumphs"],
+    "neg": ["despair", "despairs"]
+  },
+  "destiny": {
+    "pos": ["light side point", "light side points"],
+    "neg": ["dark side point", "dark side points"]
+  }
+}

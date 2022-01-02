@@ -1,0 +1,436 @@
+{
+  "green": [
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "A",
+      "primary": 0,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "R",
+      "primary": 2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "S",
+      "primary": 1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "B",
+      "primary": 0,
+      "secondary": 2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "A",
+      "primary": 0,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "Q",
+      "primary": 1,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "S",
+      "primary": 1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "purple": [
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "C",
+      "primary": -1,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "E",
+      "primary": -2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "U",
+      "primary": 0,
+      "secondary": -2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "F",
+      "primary": -1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "yellow": [
+    {
+      "symbol": "V",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 1,
+      "destiny": 0
+    },
+    {
+      "symbol": "Q",
+      "primary": 1,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "B",
+      "primary": 0,
+      "secondary": 2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "S",
+      "primary": 1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "R",
+      "primary": 2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "A",
+      "primary": 0,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "R",
+      "primary": 2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "S",
+      "primary": 1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "B",
+      "primary": 0,
+      "secondary": 2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "Q",
+      "primary": 1,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "Q",
+      "primary": 1,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "red": [
+    {
+      "symbol": "D",
+      "primary": 0,
+      "secondary": 0,
+      "critical": -1,
+      "destiny": 0
+    },
+    {
+      "symbol": "C",
+      "primary": -1,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "U",
+      "primary": 0,
+      "secondary": -2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "F",
+      "primary": -1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "E",
+      "primary": -2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "F",
+      "primary": -1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "U",
+      "primary": 0,
+      "secondary": -2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "C",
+      "primary": -1,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "E",
+      "primary": -2,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "blue": [
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "Q",
+      "primary": 1,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "B",
+      "primary": 0,
+      "secondary": 2,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "S",
+      "primary": 1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "A",
+      "primary": 0,
+      "secondary": 1,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "black": [
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "T",
+      "primary": 0,
+      "secondary": -1,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "F",
+      "primary": -1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "F",
+      "primary": -1,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    }
+  ],
+  "white": [
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
+    },
+    {
+      "symbol": "L",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -2
+    },
+    {
+      "symbol": "W",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 1
+    },
+    {
+      "symbol": "X",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 2
+    },
+    {
+      "symbol": "W",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 1
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
+    },
+    {
+      "symbol": "",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 0
+    }
+  ]
+}

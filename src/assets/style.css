@@ -1,0 +1,265 @@
+/**
+  Custom fonts
+**/
+@font-face {
+  font-family: 'eote-symbols';
+  src: url('./DiceEdge-Regular.ttf');
+}
+
+/**
+  Variables
+**/
+:root {
+  --color-green: green;
+  --color-purple: purple;
+  --color-yellow: #ffd447;
+  --color-red: #ff5a5f;
+  --color-blue: #aeecef;
+  --color-black: #111111;
+  --color-white: #fafafa;
+  --color-button: #247ba0;
+  --font-family-main: sans-serif;
+  --font-family-symbol: 'eote-symbols';
+  --font-size-base: 16px;
+}
+:root.light {
+  --color-bg: #fff;
+  --color-text: #333;
+  --color-subtext: #666;
+  --color-light: #eaeaea;
+  --color-mid: #cacaca;
+}
+:root.dark {
+  --color-bg: #111;
+  --color-text: #fff;
+  --color-subtext: #aaa;
+  --color-light: #292929;
+  --color-mid: #343434;
+}
+
+/**
+  Reset/normalize
+**/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+  Styles
+**/
+html {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-base);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.intro-text {
+  color: var(--color-subtext);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.toggle-button {
+  background: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-mid);
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.footer a {
+  color: var(--color-text);
+}
+
+.dice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dice-container > div {
+  margin: 5px 10px;
+}
+.diamond,
+.hexagon {
+  position: relative;
+  width: 60px;
+}
+.diamond > span,
+.hexagon > span,
+.square > span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--color-black);
+}
+.hexagon > span {
+  left: -5px;
+}
+.green path {
+  fill: var(--color-green);
+}
+.purple path {
+  fill: var(--color-purple);
+}
+.yellow path {
+  fill: var(--color-yellow);
+}
+.red path {
+  fill: var(--color-red);
+}
+.white path {
+  fill: var(--color-white);
+}
+.white path {
+  stroke: var(--color-mid);
+}
+.green > span,
+.purple > span,
+.black > span {
+  color: var(--color-white);
+}
+.white > span {
+  color: var(--color-black);
+}
+.square {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 1px solid var(--color-bg);
+}
+.dark .square {
+  border-color: var(--color-mid);
+}
+.counter {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center;
+  width: 200px;
+  max-width: 100%;
+  padding: 5px 0;
+  border: 1px solid var(--color-light);
+}
+.counter-label {
+  margin: 0;
+}
+.counter-text {
+  padding: 0 5px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter-button {
+  padding: 5px;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  margin-top: -0.4rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+.symbols {
+  font-family: var(--font-family-symbol);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+  border-radius: 3px;
+}
+
+.results {
+  width: 400px;
+  display: none;
+  text-align: center;
+  border: 1px solid var(--color-light);
+  padding: 0 20px;
+  margin: 20px 0;
+  background: var(--color-light);
+}
+.results.rolled {
+  display: block;
+}
+
+.results .symbols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 10px 0;
+}
+.form-grid .counter {
+  grid-column: auto / span 2;
+}
+.form-grid .counter:nth-child(7) {
+  grid-column: 2 / span 2;
+}
+.form-grid-help-text {
+  grid-column: 1 / span 4;
+}
+.form-grid-button {
+  grid-column: 1 / span 4;
+  background: var(--color-button);
+  color: var(--color-white);
+  margin: 20px 0 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 2px solid var(--color-button);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.form-grid-clear {
+  grid-column: 1 / span 4;
+  background: transparent;
+  color: var(--color-text);
+  margin: 5px 0 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 1px solid var(--color-red);
+  border-radius: 3px;
+  cursor: pointer;
+}
