@@ -4,7 +4,7 @@
 
 Welcome to the dice rolling tool for Star Wars Edge of the Empire! This simple tool allows you to set your desired dice pool and roll. It has a light and dark mode and works on mobile devices as well. May the force be with you!
 
-**[Go to the Dice Roller!](https://eote-dice-roller.netlify.app)**
+**[Go to the Dice Roller →](https://eote-dice-roller.netlify.app)**
 
 </div>
 
