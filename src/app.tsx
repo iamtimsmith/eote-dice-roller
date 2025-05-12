@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { render } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import Counter from './components/counter';
 import Diamond from './components/diamond';
 import Hexagon from './components/hexagon';
@@ -52,7 +52,7 @@ const App = () => {
 
   return (
     <>
-      <div class='container'>
+      <div className='container'>
         <h1>Star Wars EOTE Dice Roller</h1>
         <p className='intro-text'>
           Welcome to the dice rolling tool for Star Wars Edge of the Empire!
@@ -65,8 +65,8 @@ const App = () => {
         </button>
         <div className={results.net ? `results rolled` : `results`}>
           <p className='symbols'>
-            {results.result.map(res => (
-              <span>{res.symbol}</span>
+            {results.result.map((res, id) => (
+              <span key={`${res.symbol}_${id}`}>{res.symbol}</span>
             ))}
           </p>
           <p>Result: {results.net}</p>
@@ -109,4 +109,6 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById('app'));
+const root = createRoot(document.getElementById('app'));
+
+root.render(<App />);

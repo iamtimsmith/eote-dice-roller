@@ -8,7 +8,7 @@ export default ({ color = 'yellow', count = 0 }) => (
       height='60'
       width='60'
       preserveAspectRatio='none'
-      viewbox='0 0 50 50'
+      viewBox='0 0 50 50'
     >
       <path
         fill={color}
