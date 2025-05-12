@@ -377,11 +377,39 @@
   ],
   "white": [
     {
-      "symbol": "",
+      "symbol": "K",
       "primary": 0,
       "secondary": 0,
       "critical": 0,
-      "destiny": 0
+      "destiny": -1
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
+    },
+    {
+      "symbol": "K",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": -1
     },
     {
       "symbol": "K",
@@ -405,13 +433,6 @@
       "destiny": 1
     },
     {
-      "symbol": "X",
-      "primary": 0,
-      "secondary": 0,
-      "critical": 0,
-      "destiny": 2
-    },
-    {
       "symbol": "W",
       "primary": 0,
       "secondary": 0,
@@ -419,18 +440,25 @@
       "destiny": 1
     },
     {
-      "symbol": "K",
+      "symbol": "X",
       "primary": 0,
       "secondary": 0,
       "critical": 0,
-      "destiny": -1
+      "destiny": 2
     },
     {
-      "symbol": "",
+      "symbol": "X",
       "primary": 0,
       "secondary": 0,
       "critical": 0,
-      "destiny": 0
+      "destiny": 2
+    },
+    {
+      "symbol": "X",
+      "primary": 0,
+      "secondary": 0,
+      "critical": 0,
+      "destiny": 2
     }
   ]
 }
