@@ -38,6 +38,17 @@ const App = () => {
     setTheme(newTheme);
   };
 
+  const getSymbol = (text: string) => {
+    switch (text) {
+      case 'W':
+        return 'K';
+      case 'X':
+        return 'L';
+      default:
+        return text;
+    }
+  };
+
   useEffect(() => {
     const storedTheme = localStorage.getItem('theme') || theme;
     setTheme(storedTheme);
@@ -66,7 +77,12 @@ const App = () => {
         <div className={results.net ? `results rolled` : `results`}>
           <p className='symbols'>
             {results.result.map((res, id) => (
-              <span key={`${res.symbol}_${id}`}>{res.symbol}</span>
+              <span
+                key={`${res.symbol}_${id}`}
+                className={`symbol_${res.symbol}`}
+              >
+                {getSymbol(res.symbol)}
+              </span>
             ))}
           </p>
           <p>Result: {results.net}</p>

@@ -208,6 +208,18 @@ h1 {
   border-radius: 3px;
 }
 
+.symbols .symbol_K,
+.symbols .symbol_L {
+  color: var(--color-black);
+  text-shadow: 0 0 3px var(--color-white);
+}
+
+.symbols .symbol_X,
+.symbols .symbol_W {
+  color: var(--color-white);
+  text-shadow: 0 0 3px var(--color-black);
+}
+
 .results {
   width: 400px;
   display: none;
